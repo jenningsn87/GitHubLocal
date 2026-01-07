@@ -28,7 +28,7 @@ String country = input.next();
 
 //Enter the number of days.
 System.out.print("How many days were you there? ");
-String days = input.next();
+int days = input.nextInt();
 
 //Enter the mode of travel (car, airplane, ship, train, bus) to reach 
 //the destination.

@@ -1,3 +1,4 @@
+//Nathan Jennings CIS406 Week 1 lab setting up the environment//
 package week1lab;
 
 public class Week1Lab {

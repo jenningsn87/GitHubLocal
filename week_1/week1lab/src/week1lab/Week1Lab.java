@@ -1,4 +1,6 @@
 //Nathan Jennings CIS406 Week 1 lab setting up the environment//
+//testing git hub push and merge//
+
 package week1lab;
 
 public class Week1Lab {

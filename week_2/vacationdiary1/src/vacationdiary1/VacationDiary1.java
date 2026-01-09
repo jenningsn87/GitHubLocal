@@ -1,6 +1,7 @@
 //Nathan Jennings CIS406 Vacation Diary 1//
 package vacationdiary1;
 
+
 import java.util.Scanner;
 
 public class VacationDiary1 {
@@ -14,17 +15,19 @@ Scanner input = new Scanner(System.in);
 //name of program
 System.out.println("Vacation Diary");
 
+
+
 //Enter date vacation started.
 System.out.print("Enter date of vacation started (mm/dd/yyyy): ");
-String date = input.next();
+String date = input.nextLine();
 
 //Enter the city visited.
 System.out.print("Enter city visited: ");
-String city = input.next();
+String city = input.nextLine();
 
 //Enter the country visited.
 System.out.print("Enter country visited: ");
-String country = input.next();
+String country = input.nextLine();
 
 //Enter the number of days.
 System.out.print("How many days were you there? ");
@@ -32,10 +35,11 @@ int days = input.nextInt();
 
 //Enter the mode of travel (car, airplane, ship, train, bus) to reach 
 //the destination.
-System.out.print("How did you get there? (car, airplane, ship, train, bus): ");
+System.out.print("How did you get there? Choose 1: (car, airplane, ship, train, bus): ");
 String travelMode = input.next();
 
 
+System.out.println("");
 System.out.println("");
 System.out.println("Details of your trip: ");
 System.out.println("Date: " + date);

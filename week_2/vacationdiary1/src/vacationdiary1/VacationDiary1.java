@@ -35,13 +35,14 @@ int days = input.nextInt();
 
 //Enter the mode of travel (car, airplane, ship, train, bus) to reach 
 //the destination.
-System.out.print("How did you get there? Choose 1: (car, airplane, ship, train, bus): ");
+System.out.print("How did you get there? Choose 1: (Car, Airplane, Ship, Train, BUs): ");
 String travelMode = input.next();
 
 
 System.out.println("");
 System.out.println("");
 System.out.println("Details of your trip: ");
+System.out.println("");
 System.out.println("Date: " + date);
 System.out.println("City: " + city);
 System.out.println("Country: " + country);
